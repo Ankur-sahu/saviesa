@@ -1,0 +1,21 @@
+nav{
+    width: 10%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-items>img{
+    width: 30px;
+}
+@media (max-width: 420px) {
+    nav{
+        display: none;
+    }
+}

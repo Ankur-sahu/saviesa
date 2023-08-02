@@ -1,0 +1,123 @@
+main {
+    width: 100%;
+    background-color: #F9FAFC;
+    display: flex;
+}
+
+.container-wrap {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    background-color: #EEEEEE;
+    padding: 10px 30px;
+}
+
+.stepper-and-from {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #EEEEEE;
+}
+
+.stepper, .stepper-and-from .stepper {
+    width: 60%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+.form-container {
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px #ccc;
+}
+
+.form-fields {
+    margin-top: 10px;
+}
+
+#outlined-basic, #property-select {
+    padding: 5px 10px;
+}
+
+#demo-simple-select-label {
+    top: -10px;
+}
+
+.input-group {
+    display: flex;
+    gap: 5px;
+}
+
+.input-group>div {
+    width: 50%;
+}
+
+.upload-docs-container {
+    width: 40%;
+    padding: 20px 50px 0px 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px 3px #ccc;
+}
+
+.upload-docs-container>div {
+    width: 100%;
+}
+
+.user-pic, .user-pic>img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.upload-container-btn {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.upload-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 420px) {
+    h2 {
+        font-size: smaller;
+    }
+    
+    .container-wrap {
+        width: 100%;
+        padding: 10px 0;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .stepper-and-from {
+        width: 100%;
+    }
+
+    .stepper {
+        width: 90%;
+    }
+
+    .form-container {
+        padding: 20px 10px;
+    }
+
+    .upload-docs-container {
+        width: 100%;
+    }
+}
